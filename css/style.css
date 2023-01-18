@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+.logo {
+    cursor: pointer;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 50px;
+}
+
+nav h1 {
+    font-family: 'Inter', sans-serif;
+    font-size: 28px;
+}
+
+.nav-div {
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.nav-a:hover {
+    font-weight: bold;
+}
+
+main {
+    background-color: #F5F5F5;
+    height: 100vh;
+    display: flex;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+ul {
+    flex-wrap: wrap;
+    display: flex;
+    padding: 0;
+    width: 100%;
+}
+
+.card-camiseta {
+    justify-content: space-around;
+    list-style: none;
+    width: 30%;
+    height: fit-content;
+    padding: 10px;
+    font-family: 'Inter', sans-serif;
+    margin: 0 auto;
+}
+
+.card-camiseta:hover {
+    border: 1px solid #2E245E;
+}
+
+.card-img {
+    text-align: center;
+}
+
+.img-card {
+    margin: 0 auto;
+}
+
+.card-a {
+    background-color: #2E245E;
+    color: white;
+    text-decoration: none;
+    width: 100px;
+    padding: 5px;
+}
+
+.p-preco {
+    color: #2E245E;
+    font-weight: bold;
+}
+
+.card-button {
+    background-color: #F5F5F5;
+    border: 1px;
+    cursor: pointer;
+    padding: 8px;
+}
+
+.card-button:hover {
+    text-decoration: dashed;
+    color: white;
+    background-color: #37268C;
+}
+
+main>div {
+    width: 35%;
+}
+
+.pesquisa-carrinho {
+    text-align: center;
+}
+
+.input-carrinho {
+    width: 50%;
+    height: 20px;
+    padding: 9px;
+}
+
+.section-carrinho {
+    text-align: center;
+    overflow-y: auto;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-pesquisa {
+    padding: 10px;
+    height: 100%;
+    background-color: #37268C;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    cursor: pointer;
+    border: none;
+}
+
+.btn-pesquisa:hover {
+    background-color: #333333;
+}
+
+.ul-carrinho {
+    display: flex;
+    height: 100%;
+    padding: 0;
+}
+
+.titulo-carrinho {
+    justify-content: center;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    background-color: #37268C;
+    color: white;
+    padding: 15px;
+}
+
+.img-carrinho {
+    width: 140px;
+}
+
+.li-carrinho {
+    font-family: 'Inter', sans-serif;
+    display: flex;
+}
+
+.btn-carrinho {
+    font-family: 'Inter', sans-serif;
+    cursor: pointer;
+}
+
+.div-carrinho {
+    background-color: #333333;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    width: 100%;
+    text-align: center;
+}
+
+.li-calcado {
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+    list-style: none;
+    font-size: 60px;
+    margin: 0 auto;
+}
+
+.img-calcados {
+    display: flex;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.produtoNao{
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+    list-style: none;
+    font-size: 60px;
+    margin: 0 auto;
+}
+
+.bingo {
+    display: flex;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.h1Carrinho {
+    font-family: 'Inter', sans-serif;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
